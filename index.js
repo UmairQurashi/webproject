@@ -24,7 +24,7 @@ app.get("/contact", (req, res) => {
 });
 app.get("*", (req, res) => {
   res.render("404Error", {
-    error: "Page Not Found",
+    error: "Page Not Found Please Click Back Button",
   });
 });
 
