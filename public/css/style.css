@@ -1,0 +1,106 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 2.7rem;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.box p{
+    font-size: 0.7rem;
+    color: white;
+}
+li{
+    list-style: none;
+    margin-top: 0.7rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+} 
+a{
+     color: white;
+     text-decoration: none;
+     padding: 2rem;
+ }
+ a:hover{
+    color: black;
+}
+ nav{
+     background-color: rgb(245, 136, 136);
+     height: 2.5rem;
+ }
+.backimg{
+    background-image: url("https://images.unsplash.com/photo-1483931430372-226f194be3a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") ;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    height: 20rem;
+    color: white;
+font-family: 'Roboto', sans-serif;
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.mission{
+    height: 15rem;
+text-align: center;
+}
+.card{
+    border: 2px solid black;
+    height: 11rem;
+    width: 30%;
+    border-radius: 0.6rem;
+    margin: 1rem auto;
+    display: inline-block;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 11rem;
+}
+.card h3{
+    margin: 0.5rem;
+}
+.card_img{
+    width: 3.4rem;
+}
+.card2_img{
+    width: 4.6rem;
+}
+.card3_img{
+    width: 8.4rem;
+}
+.box-card{
+    display: flex;
+    align-items: center;
+}
+.sponser_section{
+    height: 16rem;
+    background-color: navy;
+text-align: center;
+padding-bottom: 1rem;
+}
+.sponsers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spons_img{
+    width: 16%;
+}
+.footer{
+    height: 3rem;
+    background-color: khaki;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
